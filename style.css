@@ -231,3 +231,21 @@ img{
         left: 70%;
     }
 }
+
+.caution{
+    display: none;
+}
+@media screen and (min-width: 600px) {
+    .container{
+        display: none;
+    }
+    .caution{
+        display: block;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: 'Luckiest Guy';
+        color: #AA771C;
+    }
+}
